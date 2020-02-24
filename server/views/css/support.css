@@ -1,0 +1,75 @@
+body {
+  font: 15px arial, sans-serif;
+  background: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#chat {
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+  background-color: white;
+  border-style: solid;
+  padding:25px 25px 25px 25px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+#inputfield {
+  font: 17px arial, sans-serif;
+    height: 22px;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    position: absolute;
+    margin-bottom: 8px;
+}
+#Logout{
+  display:none;
+}
+
+#admin1:hover{
+  color:orange !important;
+}
+#admin1{
+  color:yellow !important;
+}
+.chatentry{
+margin-top: 5px;
+font-family: sans-serif;
+font-size: 20px;
+border-radius: 5px ;
+border-width: thin;
+clear: both;
+}
+#chatentry1{
+  float: right;
+  background-color: #2FB231;
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 5px ;
+  border-width: thin;
+  clear: both;
+  border: solid;
+  padding: 5px 5px 5px 5px;
+}
+#chatentry2{
+  float: left;
+  background-color: #2F83B2;
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 5px ;
+  border-width: thin;
+  clear: both;
+  border: solid;
+  padding: 5px 5px 5px 5px;
+
+}
+#chat{
+  overflow:scroll;
+}

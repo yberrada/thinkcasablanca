@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>THINK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body>
+  <div class="split left">
+    <div class="centered">
+      <p id="Intro"></p>
+      <li> <a href="Dashboards.html"> <img id="img1" src="images/IBM-Logo.png" alt=""></a> </li>
+    </div>
+  </div>
+  <div class="split right">
+    <div class="">
+      <nav class="navbar navbar-inverse" style="background-color: #111;opacity:70%;margin-top:0px;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">THINK Casablanca</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bill.html">Dashboards</a></li>
+            <li><a href="support.html">Support</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="admin"><a href="admin.html" id="admin1"><span class="glyphicon glyphicon-user"></span> ADMIN</a></li>
+            <li id="login"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li id="Logout"><a href="logout.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="main centered">
+        <p class="sign" align="center">Sign in</p>
+        <form class="form">
+          <input class="user " type="text" align="center" placeholder="Username">
+          <input class="pass" type="password" align="center" placeholder="Password">
+          <p id="status"></p>
+          <a class="submit" align="center" onclick="login()">Sign in</a>
+          <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

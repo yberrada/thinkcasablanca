@@ -1,5 +1,5 @@
 body {
-  background: url("../images/background1.jpg");
+  background: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,7 +78,7 @@ ul {
 .left {
   left: 0;
   background-color: #111;
-  opacity: 85%;
+  opacity: 70%;
 }
 
 .right {
